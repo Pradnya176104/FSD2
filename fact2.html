@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style = "text-align: center; font-size: 20px;">
+<h1> factorial program </h1>
+<script type ="text/javascript">
+  function factorial(n)
+  {
+     var fact=1,i=1,n;
+     n=Number(document.getElementById("num").value);
+     while(i<=n)
+     { 
+        fact=fact*i;
+        i=i+1;
+     }
+     document.getElementById("answer").value=fact;
+}
+</script>
+Enter the number:<input id="num"><br><br>
+<button onclick="factorial()">factorial</button><br><br>
+Factorial of given number is: <input id="answer">
+</body>
+</html>
+
+ 
