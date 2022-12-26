@@ -1,0 +1,22 @@
+<!DOCTYPEhtml>
+<html>
+<body>
+<p>click the button to check the number present in the array or not</p>
+<button onclick="myfunction()">clickhere..</button>
+<p id="demo"></p>
+<script language="javascript">
+var num=[1,2,3,4,5];
+p=parseInt(prompt("enter the number you want to search:"));
+function checkAdult(num)
+{
+if(num==p)
+document.write(num +"is present in array:");
+}
+
+function myfunction()
+{
+document.getElementById("demo").innerHTML=num.find(checkAdult);
+}
+</script>
+</body>
+</html
