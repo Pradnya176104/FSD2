@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body 
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+  width: 100%; padding: 12px;
+  border: 1px solid #ccc;border-radius: 4px;
+  box-sizing: border-box; margin-top: 6px;
+  margin-bottom: 16px;resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: Black;
+  padding: 12px 20px;
+  border: 2px solid black; border-radius: 4px;
+  cursor: pointer;
+}
+.container {
+   margin: auto;
+  width:60%;
+  border-radius: 5px;
+border: 3px solid black;
+  background-color: #87AFC7;
+  padding: 20px;
+}
+</style></head>
+<body>
+<div class="container">
+<h2 align="center">Get in Touch</h2>
+  <form action="/contactus.html">
+    <label for="fname"><strong>Your Name</strong></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="email"><strong>Email</strong></label>
+    <input type="text" id="email" name="email" placeholder="Your Email..">
+    <label for="country"><strong>Gender</strong></label>
+    <select id="Gender" name="country">
+      <option value="In">Female</option>
+      <option value="male">Male</option>
+    </select>
+    <label for="subject"><strong>Subject</strong></label>
+    <textarea id="subject" name="subject" placeholder="Your Feedback.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</div></body></html>
